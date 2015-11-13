@@ -1,9 +1,9 @@
 {
   "name": "gcm-xmpp",
   "description": "Connects to GCM servers using a XMPP protocol.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alejandro Santiago Nieto",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "debug": "^2.2.0",
     "node-xmpp-client": "^2.0.2",
