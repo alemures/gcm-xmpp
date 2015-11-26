@@ -2,6 +2,9 @@ gcm-xmpp
 ===
 Connects to GCM servers using a XMPP protocol.
 
+## Install
+npm install gcm-xmpp
+
 ## Example
 ```
 var Client = require('gcm-xmpp');
