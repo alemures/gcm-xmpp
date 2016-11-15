@@ -1,20 +1,19 @@
 {
   "name": "gcm-xmpp",
   "description": "Connects to GCM servers using a XMPP protocol.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Alejandro Santiago Nieto",
   "license": "MIT",
   "dependencies": {
-    "debug": "^2.2.0",
-    "node-xmpp-client": "^2.0.2",
-    "utjs": "^1.0.8"
+    "debug": "2.x.x",
+    "node-xmpp-client": "2.x.x",
+    "utjs": "1.x.x"
   },
   "devDependencies": {
-    "chai": "^3.2.0",
-    "jscs": "^2.0.0",
-    "jshint": "^2.8.0",
-    "mocha": "^2.2.5",
-    "nodemon": "^1.4.0"
+    "chai": "3.x.x",
+    "jscs": "3.x.x",
+    "jshint": "2.x.x",
+    "mocha": "3.x.x"
   },
   "main": "index.js",
   "files": [
@@ -22,9 +21,7 @@
     "lib"
   ],
   "scripts": {
-    "start": "node index.js",
     "test": "mocha test/*.js",
-    "watch": "nodemon index.js --watch index.js --watch lib/*.js",
     "jshint": "jshint index.js lib/*.js test/*.js",
     "jscs": "jscs index.js lib/*.js test/*.js",
     "jscs:fix": "jscs --fix index.js lib/*.js test/*.js",
