@@ -5,15 +5,15 @@
   "author": "Alejandro Santiago Nieto",
   "license": "MIT",
   "dependencies": {
-    "debug": "2.x.x",
-    "node-xmpp-client": "2.x.x",
-    "utjs": "1.x.x"
+    "debug": "^3.1.0",
+    "node-xmpp-client": "^3.2.0",
+    "utjs": "^3.0.0"
   },
   "devDependencies": {
-    "chai": "3.x.x",
-    "jscs": "3.x.x",
-    "jshint": "2.x.x",
-    "mocha": "3.x.x"
+    "chai": "^4.1.2",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
   },
   "main": "index.js",
   "files": [
